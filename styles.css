@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 
 .rotate
 {
    color: #313131;
-   font-family: 'Quicksand', sans-serif;
+   font-family: 'Prosto One', cursive;
     font-style: italic;
     font-weight: bold;
     position: relative; /* Относительное позиционирование */ 
@@ -59,7 +59,7 @@ ul{
 }
 .sttextheader {
   color: #313131;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Prosto One', cursive;
     font-size: 25px;
     font-style: italic;
     position: relative; /* Относительное позиционирование */ 
@@ -68,7 +68,7 @@ ul{
 .sttextmenu {
   display: flex;
   color: #313131;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Prosto One', cursive;
     font-size: 18px;
     font-style: italic;
     position: relative; /* Относительное позиционирование */
@@ -77,14 +77,14 @@ ul{
 .sttexttitle {
     font-size: 100px;;
     color: #313131;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Prosto One', cursive;
     font-style: italic;
     margin-bottom: 10px;
 }
 .sttext {
   text-decoration: none;
   color: #313131;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Prosto One', cursive;
     font-size: 25px;
     font-style: italic;
     position: relative; /* Относительное позиционирование */ 
@@ -246,7 +246,7 @@ p.change-text:hover{
 	display: block;
 	padding: 12px 24px;
 	color: #333;
-	font-family: 'Micra', sans-serif;
+	font-family: 'Prosto One', cursive;
 	font-size: 18px;
 	font-weight: 600;
 	text-decoration: none;
@@ -260,7 +260,7 @@ p.change-text:hover{
   @import url(https://fonts.googleapis.com/css?family=Audiowide);
   html {
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Prosto One', cursive;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.4;
@@ -270,7 +270,7 @@ p.change-text:hover{
   }
   h1 {
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Prosto One', cursive;
     font-size: 2em;
     font-size: 6vw;
     line-height: 1.2;
