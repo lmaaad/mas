@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 .rotate
 {
    color: #313131;
-    font-family:Micra;
+   font-family: 'Quicksand', sans-serif;
     font-style: italic;
     font-weight: bold;
     position: relative; /* Относительное позиционирование */ 
@@ -57,7 +59,7 @@ ul{
 }
 .sttextheader {
   color: #313131;
-    font-family:Micra;
+  font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     font-style: italic;
     position: relative; /* Относительное позиционирование */ 
@@ -66,7 +68,7 @@ ul{
 .sttextmenu {
   display: flex;
   color: #313131;
-    font-family:Micra;
+  font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-style: italic;
     position: relative; /* Относительное позиционирование */
@@ -75,14 +77,14 @@ ul{
 .sttexttitle {
     font-size: 100px;;
     color: #313131;
-    font-family:Micra;
+    font-family: 'Quicksand', sans-serif;
     font-style: italic;
     margin-bottom: 10px;
 }
 .sttext {
   text-decoration: none;
   color: #313131;
-    font-family:Micra;
+  font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     font-style: italic;
     position: relative; /* Относительное позиционирование */ 
@@ -172,7 +174,6 @@ body {
 p.change-text{
     color: #000000; /* Цвет текста */
     font-size: 0.75em; /* Размер текста */
-    font-weight: standart;
     padding: 20px 0px;
     text-transform: uppercase;
     line-height: 1;
@@ -269,7 +270,7 @@ p.change-text:hover{
   }
   h1 {
     color: #fff;
-    font-family: "Audiowide", cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 2em;
     font-size: 6vw;
     line-height: 1.2;
