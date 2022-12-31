@@ -1,0 +1,160 @@
+@media only screen and (max-width:1200px){
+h1{
+    font-size:100px;
+}
+h2{
+    font-size:50px;
+}
+
+img.logo{
+max-width: 70%;
+max-height: 60%;}
+
+img.house{
+    max-width: 100%;
+    max-height: 100%;
+    top: 25%;
+    left:5%
+}
+
+.sttextheader{
+    font-size: 75%;
+    
+}
+.sttext{
+    font-size:20px;
+    
+}
+h1.sttexttitle{
+    font-size: 85px;
+    
+}
+h2.sttexttitle{
+    
+    font-size:50px;
+   
+    
+}
+img.prem{
+    max-width: 60%;
+    max-height: 50%;
+    top: 30%;
+    right:15%;
+}   
+img.scn{
+    position: relative;
+    max-width: 60%;
+    max-height: 50%;
+    top: 30%;
+}   
+img.control{
+    max-width: 60%;
+    max-height: 50%;
+    top: 55%;
+    left: 50%;
+}   
+ul{
+    position: relative;
+    font-size: 15px;
+}
+li{
+    font-size: 15px;
+    margin: 0;
+}
+
+}
+
+
+
+@media only screen and (max-width:992px){
+    
+}
+@media only screen and (max-width:768px){
+     
+}
+@media only screen and (max-width:480px){
+    h1{
+        font-size:50px;
+    }
+    h2{
+        font-size:25px;
+    }
+    
+    img.logo{
+        position: absolute;
+       right: 50px;
+    }
+    
+    img.house{
+        max-width: 110%;
+        max-height: 125%;
+        top: 51%;
+        
+    }
+    
+    .sttextheader{
+       display: none;
+        
+    }
+    .sttext{
+        font-size:18px;
+        
+    }
+    h4.sttext{
+        font-size:15px;
+        
+    }
+    h1.sttexttitle{
+        font-size: 40px;
+        
+    }
+    h2.sttexttitle{
+        text-align: center;
+        text-decoration-line:underline;
+        font-size:25px;
+    }
+    img.shit{
+        position: relative;
+        max-width: 90%;
+        max-height: 90%;
+        top: 0%;
+        right: 10%;
+    }   
+    img.prem{
+        max-width: 100%;
+        max-height: 100%;
+        padding-top: 100px;
+        left:5%;
+    }   
+    img.scn{
+        position: relative;
+        max-width: 90%;
+        max-height: 90%;
+        top: 0%;
+        left: 0%;
+    }   
+    img.control{
+        max-width: 100%;
+        max-height: 100%;
+        top: 55%;
+        left: 0%;
+    }   
+    ul{
+        position: relative;
+        font-size: 7px;
+    }
+    li{
+        font-size: 15px;
+        margin: 0;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: flex;
+    
+    }  
+}
+@media only screen and (max-width:320px){
+
+}
+    

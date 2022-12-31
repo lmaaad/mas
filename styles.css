@@ -1,0 +1,366 @@
+.rotate
+{
+   color: #313131;
+    font-family:Micra;
+    font-style: italic;
+    font-weight: bold;
+    position: relative; /* Относительное позиционирование */ 
+     bottom: 35px; /* Сдвиг снизу */ 
+    display:block;
+    transform: rotate(-90deg); 
+    transform: rotate(-90deg); 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /*For IE support*/
+}
+.tab { 
+	 margin-left: 40px;
+}
+.control{
+  height:50%;
+  position:absolute;
+  left: 65%;
+  
+}
+ul{
+  padding-top: 50px;
+}
+.scn{
+  height:60%;
+  position: relative;
+  top: 200px;
+  left: 20px;
+}
+.prem{
+  height:20%;
+  position:relative;
+ right: 25%;
+ 
+}
+.shit{
+  height:60%;
+  position:relative;
+  top: 200px;
+  right: 20px;
+}
+.house{
+     position:absolute;
+     left: 400px;
+	 top: 500px;;
+}
+.box {
+    background: #2db34a00;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.box:hover {
+    background: #ff0000b4;
+}
+.sttextheader {
+  color: #313131;
+    font-family:Micra;
+    font-size: 25px;
+    font-style: italic;
+    position: relative; /* Относительное позиционирование */ 
+    top: 50%; /* Сдвиг сверху */ 
+}
+.sttextmenu {
+  display: flex;
+  color: #313131;
+    font-family:Micra;
+    font-size: 18px;
+    font-style: italic;
+    position: relative; /* Относительное позиционирование */
+    padding-top: 15px;
+}
+.sttexttitle {
+    font-size: 100px;;
+    color: #313131;
+    font-family:Micra;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.sttext {
+  text-decoration: none;
+  color: #313131;
+    font-family:Micra;
+    font-size: 25px;
+    font-style: italic;
+    position: relative; /* Относительное позиционирование */ 
+}
+.letter {
+     color: rgb(255, 255, 255); /* Цвет символа */
+     font-size: 200%; /* Размер шрифта */
+} 
+p {
+     color: rgb(248, 248, 248); /* Цвет текста */
+}
+a { 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание 
+                                   при наведении курсора мыши на ссылку */
+                                   
+}
+td {
+	text-decoration: line-through; /*Зачеркиваем текст*/
+}
+.scnariy {
+   padding-right: 25px;
+   font-size: 50px;
+}
+.block {
+   
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 75px; /* Высота блока */
+    width: auto; /* Ширина блока */
+    padding-left: 15px; /* Отступ от текста слева */
+    background: url(images/white.jpg) repeat-y rgb(255, 255, 255); /* Цвет фона, 
+                                                    путь к фоновому изображению и 
+                                                    повторение фона по вертикали */
+} 
+.chatbot{
+  position: relative;
+  width :250px;
+  height: 300px;
+  z-index: 1;
+
+}
+footer {
+  display: flex;
+  justify-content:space-around;
+  text-decoration: none;
+  top: 100%;
+  background: #fcfcfc;
+  box-shadow: 1 .5em 0em #111;
+  position:sticky;
+  z-index: 2;
+  height: 75px; /* Высота блока */
+  width: auto; /* Ширина блока */
+} 
+.foot{
+  
+  padding-left: 300px;
+  padding-top: 1%;
+   display: flex;
+   text-align: center;
+   justify-content:space-around;
+   background: #fcfcfc;
+   padding-left: 50px;
+ } 
+.vniz {
+    position: absolute; /* Относительное позиционирование */ 
+    top: 800px; /* Сдвиг сверху */ 
+    left: 50px;
+    color: #494949;
+
+    height: 140px; /* Высота блока */
+    width: 50px; /* Ширина блока */
+    background: url(images/strel.jpg) repeat-y rgba(158, 201, 236, 0); /* Цвет фона, 
+                                                    путь к фоновому изображению и 
+                                                    повторение фона по вертикали */
+}
+h2{
+    padding-left: 25px;
+}
+body {
+    background-image: url(images/city.png); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* перемещает фон вместе с содержимым веб-страницы */
+}
+p.change-text{
+    color: #000000; /* Цвет текста */
+    font-size: 0.75em; /* Размер текста */
+    font-weight: standart;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; 
+}
+p.change-text:hover{
+    color: #ff0000; /* Меняем цвет текста */
+}
+
+#menu__toggle {
+	opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+	transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+	top: 0;
+	transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+	top: 0;
+	transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+	right: 0 !important;
+  }
+  .menu__btn {
+	position: fixed;
+	top: 30px;
+	right: 25px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #363636;
+	transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+	content: '';
+	top: -8px;
+  }
+  .menu__btn > span::after {
+	content: '';
+	top: 8px;
+  }
+  .menu__box {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 250px;
+	height: 100%;
+	margin: 0;
+	padding: 80px 0;
+	list-style: none;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+	transition-duration: .25s;
+  }
+  .menu__item {
+	display: block;
+	padding: 12px 24px;
+	color: #333;
+	font-family: 'Micra', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	transition-duration: .25s;
+  }
+  .menu__item:hover {
+	background-color: #CFD8DC;
+  }
+  
+
+  @import url(https://fonts.googleapis.com/css?family=Audiowide);
+  html {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  h1 {
+    color: #fff;
+    font-family: "Audiowide", cursive;
+    font-size: 2em;
+    font-size: 6vw;
+    line-height: 1.2;
+    margin: 0.5em 0 3em;
+    text-shadow: 1px 1px 1px #333;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .wrap {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-image:url(images/city.png);
+    background-attachment: fixed;
+    background-size: auto;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+  }
+  header {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px 0;
+    background: #fcfcfc;
+    box-shadow: 0 0.5em 1em #111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    height: 10%;
+    
+} 
+
+  header label {
+    color: #fcfcfc;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 4px;
+    font-size: 17px;
+    font-weight: italic;
+    padding: 10px;
+  }
+  header label:hover {
+    background: #ffffff;
+    height: auto;
+  }
+  .slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-image:url(images/city.png);
+    background-attachment: fixed;
+    background-size:auto;
+    transition: left 0s 0.75s;
+  }
+  .slide-one {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/65463/starryFarm.jpg');
+  }
+  .slide-two {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/65463/campusDarkDays.jpg');
+  }
+  .slide-three {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/65463/autumn.jpg');
+  }
+  .slide-four {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/65463/lakehouse.jpg');
+  }
+  .slide h1 {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s 0.5s, opacity 0.5s;
+  }
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+  }
+  [id^="slide"]:checked + .slide h1 {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s 0.5s;
+  }
+ 
+

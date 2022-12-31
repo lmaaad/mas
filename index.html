@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <script src=" scrypt.js"></script>
+  <link rel="stylesheet" href="dist/jquery.convform.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="dist/jquery.convform.js"></script>
+  <link rel="stylesheet" href="styles.css" type="text/css" /> 
+  <link rel="stylesheet" href="adaptive.css" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="author" content="МАС">
+  <meta name="discription" content="Наша страница">
+  <meta name="keywords" content="тест, html, мади">
+  <!--Комментарий-->
+  <title>MAS - Технологии умного дома</title>
+
+ </head>   
+ <body>
+    <div class="wrap" align="center">
+      <header>
+        
+          <img src="images/logo.jpg" align="left"  height="100%">
+          <label for="slide-1-trigger"><span class="sttextheader">Главная</span></label>
+          <label for="slide-2-trigger"><span class="sttextheader">Умный дом</span></label>
+          <label for="slide-3-trigger"><span class="sttextheader">Сценарии</span> </label>
+          <label for="slide-4-trigger"><span class="sttextheader">Функционал</span></label>
+          <label for="slide-5-trigger"><span class="sttextheader">Преимущества</span></label>
+          <div align="left" class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li><label for="slide-1-trigger"><span class="sttextmenu">Главная</span></li></label>
+              <li><label for="slide-2-trigger"><span class="sttextmenu">Управление</span></li></label>
+              <li><label for="slide-3-trigger"><span class="sttextmenu">Сценарии</span></li></label>
+              <li><label for="slide-4-trigger"><span class="sttextmenu">Функционал</span></li></label>
+              <li> <label for="slide-5-trigger"><span class="sttextmenu">Преимущества</span></li></label>
+              <li><a href="about.html" class="sttextmenu">О нас</a></li>
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <iframe class="chatbot"
+   allow="microphone;"
+   src="https://console.dialogflow.com/api-client/demo/embedded/8e130d6f-6064-4e7e-9686-d4ff46f9d420">
+</iframe>
+            </ul>
+          </div>
+      </header>
+   
+      <input id="slide-1-trigger" type="radio" name="slides" checked>
+      <section class="slide slide-one">
+         <h1 align="center"  class="sttexttitle">Умный дом для каждого</h1>
+         <h3 align = "center" class="sttext">Технологии, которые изменят ваш быт</h3><br>
+         <img src="images/home.png" align="center" height="60%" class="house">
+      </section>
+      <input id="slide-2-trigger" type="radio" name="slides">
+      <section class="slide slide-two">
+         <h2 align = "left" class="sttexttitle">Управление</h2>
+         <h3 align = "left" class="sttext">Управляйте климатом, освещением, шторами и другим:</h3><br>
+         <h4 align = "left" class="sttext">
+            
+            <li>Со смартфона</li><br>
+            <li>Голосовым управлением</li><br>
+            <li>Стандартными выключателями</li><br>
+            <li>Или доверьте управление автоматической системе Умного Дома</li><br>
+        
+         </h4>
+         <img src="images/1.png" align="center" class="control">
+
+      </section>
+      <input id="slide-3-trigger" type="radio" name="slides">
+      <section class="slide slide-three">
+         <img src="images/scenarii.png" align="left"  class="scn">
+         <h2 align = "right" class="sttexttitle"><span>Сценарии</span></h2>
+         <h3 align = "right" class="sttext"><span>По одной фразе ваш дом подстраивается под вас:</span></h3><br>
+         <h4 align = "right" class="sttext">
+             
+            <li>Максимально просто и интуитивно;</li><br>
+            <li>На создание одного сценария отводится не больше 5 минут;</li><br>
+            <li>Экономьте свое время, повысте комфорт и удивляйте своих гостей.</li><br>
+         
+         </h4>
+      </section>
+      <input id="slide-4-trigger" type="radio" name="slides">
+      <section class="slide slide-four">
+         <img src="images/shitok.png" align="right"  class="shit" >
+<h2 align = "left" class="sttexttitle"><span >Как устроен</span></h2>
+<h3 align = "left" class="sttext"><span > Умный Дом состоит из:</span></h3><br>
+<h4 align = "left" class="sttext">
+   
+   <li><strong> Управляющее оборудование.</strong> Распологается в электрическом щите.</li><br>
+   <li><strong> Датчики.</strong> Именно они определяют, когда включить свет, открыть дверь, и перекрыть воду.</li><br>
+   <li><strong> Провода.</strong> Закладываются на этаме ремонта.</li><br></h4>
+
+      </section>
+      <input id="slide-5-trigger" type="radio" name="slides">
+      <section class="slide slide-four">
+         
+         <h2 align = "right" class="sttexttitle"><span >Преимущества</span></h2>
+         <h3 align = "right" class="sttext"><span> Умного дома MAS:</span></h3><br>
+         <h4 align = "right" class="sttext">
+            
+            <li><strong> Неуязвимость.</strong> Датчики разбиваются на 15 отдельных серверов, что не дает им  выйти из строя.</li><br>
+            <li><strong> Опыт.</strong> На рынке с 2010 года.</li><br>
+            <li><strong> Удобство.</strong>Полная линейка оборудования от одного производителя.</li><br>
+            <img src="images/prem.png" align="center" class="prem" >
+         </h4>
+      </section>
+  </div>
+  
+  <footer> 
+   <div class="foot">
+      
+      <div class="sttext">
+            <label><a href="mailto:mat.dyuzhev@yandex.ru">Написать на почту</a></label>
+            <label> | </label>
+            <label><a href="about.html">О нас</a></label>
+            <label> | </label>
+            <label>+79157885599</label>
+         
+      </div>
+   </div>
+</footer>
+ </body>
+</html> 
